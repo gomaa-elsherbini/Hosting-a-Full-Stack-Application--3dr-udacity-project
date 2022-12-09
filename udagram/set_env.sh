@@ -8,4 +8,4 @@ export AWS_BUCKET=elasticbeanstalk-us-east-1-495088595245
 export AWS_REGION=us-east-1
 export AWS_PROFILE=defualt
 export JWT_SECRET=secretjwt-this-my-secretjwt
-export URL=http://localhost:8080
+export URL=http://localhost
