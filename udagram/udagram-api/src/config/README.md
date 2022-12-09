@@ -13,4 +13,3 @@ You need a separate S3 Media bucket !
 `AWS_BUCKET` : Your media bucket name EG.: "mediabucket123123"  
 `URL` : Your backend URL, can be found after creating EB Environment  
 `JWT_SECRET` : Your JWT token secret, can be set to any value
-
