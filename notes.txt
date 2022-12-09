@@ -1,3 +1,10 @@
+cut from .gitignore front-end
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+==============================================
+set_env.sh file
 # This file is used for convenience of local development.
 # DO NOT STORE YOUR CREDENTIALS INTO GIT
 export POSTGRES_USERNAME=postgres
@@ -9,3 +16,6 @@ export AWS_REGION=us-east-1
 export AWS_PROFILE=defualt
 export JWT_SECRET=secretjwt-this-my-secretjwt
 export URL=http://localhost
+
+==============================================
+
