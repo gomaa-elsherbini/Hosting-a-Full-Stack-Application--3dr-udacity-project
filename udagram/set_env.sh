@@ -8,4 +8,4 @@ export AWS_BUCKET=arn:aws:s3:::mygogobucket
 export AWS_REGION=us-east-1
 export AWS_PROFILE=defualt
 export JWT_SECRET=secretjwt-this-my-secretjwt
-export URL=http://localhost:8100
+export URL=http://localhost
