@@ -13,7 +13,7 @@ export const config = {
   database: process.env.POSTGRES_DB,
   host: process.env.POSTGRES_HOST,
   port: Number(process.env.DB_PORT),
-  dbport: Number(process.env.PORT),
+  apiport: Number(process.env.API_PORT),
   accessKeyId : process.env.AWS_ACCESS_KEY_ID,
   secretAccessKey : process.env.AWS_SECRET_ACCESS_KEY,
   aws_region: process.env.AWS_REGION,

@@ -26,7 +26,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
 
   const app = express();
   
-  const dbport = process.env.PORT;
+  const apiport = process.env.PORT;
 
   app.use(bodyParser.json());
 
@@ -60,8 +60,8 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   });
 
   // Start the Server
-  app.listen(dbport, () => {
-    console.log(`Backend server is listening on port ${dbport}....`);
+  app.listen(apiport, () => {
+    console.log(`Backend server is listening on port ${apiport}....`);
     console.log(`Frontent server running ${process.env.URL}`);
     console.log(`press CTRL+C to stop server`);
   });
