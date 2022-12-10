@@ -9,7 +9,8 @@ export const s3 = new AWS.S3({
   params: { Bucket: config.aws_media_bucket },
   credentials: {
     accessKeyId:config.accessKeyId,
-    secretAccessKey: config.secretAccessKey
+    secretAccessKey: config.secretAccessKey,
+    
   }
 });
 // Generates an AWS signed URL for retrieving objects
