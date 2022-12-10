@@ -15,7 +15,7 @@
 - It is a free service that lets you easily run applications on web servers.
 - This serves provides the Elastic Compute Cloud (EC2): Used for hosting servers, and Simple Storage Service (S3): Used for storing application code and sending it to other servers. 
 - I created udagram-api EC2 with eb-cli with the environment udagram-api-env which is the back-end server to serve my udagram app, and upload the api src code required to operates the api in the S3 with the health ok.
-[udagram-api](udagram-api-env.eba-phwjqsrw.us-east-1.elasticbeanstalk.com)
+[udagram-api](udagram-api-env.eba-ch52xm39.us-east-1.elasticbeanstalk.com)
 
 - [Create an Elastic Beanstalk environment](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html)
 
